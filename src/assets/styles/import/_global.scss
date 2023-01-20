@@ -1,0 +1,28 @@
+body {
+	margin: 0;
+	font-family: 'Inter', sans-serif, Arial, Helvetica;
+}
+
+button {
+	border: 0;
+	cursor: pointer;
+}
+
+h1, p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+input{
+	&:focus {
+		outline: none;
+	}
+}
