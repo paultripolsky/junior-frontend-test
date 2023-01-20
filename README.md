@@ -1,15 +1,6 @@
-# junior-frontend-test
+# Тестовое задание для AstraLab на позицию Junior Frontend Developer
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
+ 
 ## Project Setup
 
 ```sh
@@ -28,8 +19,14 @@ npm run dev
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+# Стек: 
+- Vue 3
+- Vite
+- Vue-router
+- Pinia
+- Vee-validate
+- Prettier
+- SCSS
 
-```sh
-npm run lint
-```
+Валидацию полей форм делал с помощью vee-validate, простую авторизацию реализовал через стор с помощью Pinia и Vue Router Navigation Guards.
+В идеале, реализовать бы все это с помощью jwt-токена, но времени на бэкенд не хватило. 
